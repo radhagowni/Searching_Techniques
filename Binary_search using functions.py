@@ -1,3 +1,4 @@
+#binary search using functions
 def Binary_search(l,size,k):
     low=0
     high=size-1
