@@ -1,3 +1,4 @@
+# Binary search using mid value without any functions
 size=int(input("Enter the size of the array:"))
 print("Enter array elements in sorted manner: ")
 l=list(map(int,input().split()))
