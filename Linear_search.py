@@ -1,3 +1,4 @@
+# program to search and find an element in linear fashion
 size=int(input("Enter the size of the array:"))
 print("Enter array elements: ")
 l=list(map(int,input().split()))
