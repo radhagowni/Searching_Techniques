@@ -1,3 +1,4 @@
+#binary search to find ceil value
 s=int(input())
 l=list(map(int,input().split()))
 element=int(input())
