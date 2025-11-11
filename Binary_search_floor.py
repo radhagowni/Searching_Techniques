@@ -1,3 +1,4 @@
+# binary search to find floor value
 s=int(input())
 l=list(map(int,input().split()))
 element=int(input())
