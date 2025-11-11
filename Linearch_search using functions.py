@@ -1,3 +1,4 @@
+#linear search using a function
 def linear_search(l,size,k):
       for i in range(size):
         if l[i]==k:
