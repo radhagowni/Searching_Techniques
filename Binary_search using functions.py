@@ -4,7 +4,7 @@ def Binary_search(l,size,k):
     low=0
     high=size-1
     while(low<=high):
-       mid=(low+high)//2
+       mid=(low+high) # calculating mid after every iteration
        if l[mid]==k:
          return mid
        elif l[mid]<k:
