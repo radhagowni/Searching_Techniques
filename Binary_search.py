@@ -7,6 +7,7 @@ low=0
 high=size-1
 idx=-1
 while(low<=high):
+    # finding mid value using formula
     mid=(low+high)//2
     if l[mid]==k:
         idx=mid
