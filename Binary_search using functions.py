@@ -1,4 +1,4 @@
-#binary search using functions
+# binary search using functions
 # A function called Binary_search is used
 def Binary_search(l,size,k):
     low=0
