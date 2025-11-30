@@ -1,5 +1,5 @@
 #binary search to find ceil value
-s=int(input())
+s=int(input("Enter size :"))
 l=list(map(int,input().split()))
 element=int(input())
 low=0
