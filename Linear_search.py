@@ -2,7 +2,7 @@
 size=int(input("Enter the size of the array:"))
 print("Enter array elements: ")
 l=list(map(int,input().split()))
-k=int(input("Enter the element to be searched in given array: "))
+k=int(input("Enter the element to be searched in given array: ")) #target element
 for i in range(len(l)):
     if l[i]==k:
         idx= i 
