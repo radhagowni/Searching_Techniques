@@ -1,7 +1,7 @@
 #binary search to find ceil value
 s=int(input("Enter size :"))
 l=list(map(int,input().split()))
-element=int(input())
+element=int(input("Enter element to be searched:"))
 low=0
 ans=-1
 high=s-1
