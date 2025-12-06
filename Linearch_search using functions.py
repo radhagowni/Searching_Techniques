@@ -9,7 +9,7 @@ size=int(input("Enter the size of the array:"))
 print("Enter array elements: ")
 l=list(map(int,input().split()))
 k=int(input("Enter the element to be searched in given array: "))
-idx=linear_search(l,size,k)
+idx=linear_search(l,size,k) # calling the function called linear_search
 if idx!=-1:
  print("The element is present at index: ",idx)
 else:
